@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 400;
+  color: #000;
+  margin: 3rem 0;
+}
+
+.container {
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+  text-decoration: underline;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-size: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-size: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  display: block;
+  width: 100%;
+  border: 2px solid #fff;
+  background: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(400px, auto);
+  gap: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#mainheader-2 {
+  background: #000;
+  color: #fff;
+}
+#mainheader-2 h2 {
+  color: #fff;
+}
+#mainheader-2 a {
+  color: #fff;
+}
+
+#mainheader-3 {
+  background: #f863d0;
+  color: #fff;
+}
+#mainheader-3 h2 {
+  color: #fff;
+}
+
+#mainheader-4 {
+  background: #02dbf8;
+  color: #fff;
+}
+#mainheader-4 h2 {
+  color: #fff;
+}
+
+#about {
+  width: 80%;
+  margin: 0 auto;
+}
+#about .about-text {
+  background: #000;
+}
+
+#services {
+  width: 80%;
+  margin: 0 auto;
+}
+#services .services-flex {
+  background: #ba02f8;
+}
+
+#contact {
+  width: 80%;
+  margin: 0 auto;
+}
+#contact .contact-content {
+  background: #000;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
