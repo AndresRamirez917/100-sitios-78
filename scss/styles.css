@@ -29,6 +29,7 @@ ul {
 .subtitle {
   font-size: 2.5rem;
   text-align: left;
+  text-transform: uppercase;
   font-weight: 400;
   color: #000;
   margin: 3rem 0;
@@ -73,13 +74,16 @@ form .form-control {
 form button {
   display: block;
   width: 100%;
-  border: 2px solid #fff;
+  border: none;
   padding: 10px 20px;
   text-align: center;
   text-transform: uppercase;
   background: #fff;
   color: #02dbf8;
   cursor: pointer;
+}
+form button:hover {
+  background: rgba(128, 128, 128, 0.542);
 }
 
 .flex {
@@ -97,6 +101,41 @@ form button {
 
 img {
   max-width: 100%;
+}
+
+#mainheader .navbar .logo, #mainheader-2 .navbar .logo, #mainheader-3 .navbar .logo, #mainheader-4 .navbar .logo {
+  margin-top: 2rem;
+  width: 150px;
+}
+#mainheader .navbar ul, #mainheader-2 .navbar ul, #mainheader-3 .navbar ul, #mainheader-4 .navbar ul {
+  margin-top: 3rem;
+  display: flex;
+}
+#mainheader .navbar li, #mainheader-2 .navbar li, #mainheader-3 .navbar li, #mainheader-4 .navbar li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container, #mainheader-2 .navbar .container, #mainheader-3 .navbar .container, #mainheader-4 .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#showcase .showcase-text {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+#showcase .showcase-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 70px;
+  margin-bottom: 3rem;
+}
+#showcase .showcase-text p {
+  margin-top: 5rem;
+  text-align: left;
+  line-height: 30px;
 }
 
 .grbox {
@@ -199,6 +238,9 @@ img {
   margin: 0 auto;
   display: flex;
   gap: 20px;
+}
+#mainheader-3 #services .services-flex .box-1 {
+  margin-bottom: 10px;
 }
 
 #mainheader-4 {
