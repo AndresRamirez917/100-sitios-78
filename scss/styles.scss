@@ -139,12 +139,27 @@ img {
     }
 }
 
+.box-1 {
+    padding: 50px 30px;
+    background: #fff;
+    p {
+        line-height: 30px;
+    }
+}
+
 //services
 #services {
-    width: 80%;
-    margin: 0 auto;
+    background: #f863d0;
+    h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
     .services-flex {
-        background: #ba02f8;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        gap: 20px;
+ 
     }
 }
 
@@ -161,4 +176,11 @@ img {
 #footer {
     text-align: center;
     padding: 3rem 0;
+}
+
+//footer-2
+#footer-2 {
+    text-align: center;
+    padding: 3rem 0;
+    background: #f863d0;
 }

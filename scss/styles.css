@@ -133,12 +133,26 @@ img {
   background: #000;
 }
 
+.box-1 {
+  padding: 50px 30px;
+  background: #fff;
+}
+.box-1 p {
+  line-height: 30px;
+}
+
 #services {
-  width: 80%;
+  background: #f863d0;
+}
+#services h2 {
+  width: 90%;
   margin: 0 auto;
 }
 #services .services-flex {
-  background: #ba02f8;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
 }
 
 #contact {
@@ -152,4 +166,10 @@ img {
 #footer {
   text-align: center;
   padding: 3rem 0;
+}
+
+#footer-2 {
+  text-align: center;
+  padding: 3rem 0;
+  background: #f863d0;
 }/*# sourceMappingURL=styles.css.map */
