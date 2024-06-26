@@ -74,10 +74,11 @@ form button {
   display: block;
   width: 100%;
   border: 2px solid #fff;
-  background: none;
   padding: 10px 20px;
   text-align: center;
   text-transform: uppercase;
+  background: #fff;
+  color: #02dbf8;
   cursor: pointer;
 }
 
@@ -116,6 +117,20 @@ img {
 #mainheader-3 h2 {
   color: #fff;
 }
+#mainheader-3 #services {
+  background: #f863d0;
+}
+#mainheader-3 #services h2 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+#mainheader-3 #services .services-flex {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
 
 #mainheader-4 {
   background: #02dbf8;
@@ -139,28 +154,19 @@ img {
 }
 .box-1 p {
   line-height: 30px;
-}
-
-#services {
-  background: #f863d0;
-}
-#services h2 {
-  width: 90%;
-  margin: 0 auto;
-}
-#services .services-flex {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  gap: 20px;
+  color: #000;
 }
 
 #contact {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
+  color: #000;
 }
 #contact .contact-content {
   background: #000;
+}
+#contact form .flex-group {
+  flex: 1;
 }
 
 #footer {
